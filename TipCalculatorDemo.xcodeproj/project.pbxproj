@@ -14,6 +14,7 @@
 		FFFC452B1A6F0883003883CE /* TipCalculatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC452A1A6F0883003883CE /* TipCalculatorDemoTests.m */; };
 		FFFC45371A6F08BA003883CE /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC45351A6F08BA003883CE /* TipViewController.m */; };
 		FFFC45381A6F08BA003883CE /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFFC45361A6F08BA003883CE /* TipViewController.xib */; };
+		FFFC453A1A6F14D6003883CE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FFFC45391A6F14D6003883CE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FFFC45341A6F08BA003883CE /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
 		FFFC45351A6F08BA003883CE /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
 		FFFC45361A6F08BA003883CE /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
+		FFFC45391A6F14D6003883CE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		FFFC45021A6F0883003883CE = {
 			isa = PBXGroup;
 			children = (
+				FFFC45391A6F14D6003883CE /* README.md */,
 				FFFC450D1A6F0883003883CE /* TipCalculatorDemo */,
 				FFFC45271A6F0883003883CE /* TipCalculatorDemoTests */,
 				FFFC450C1A6F0883003883CE /* Products */,
@@ -221,6 +224,7 @@
 			files = (
 				FFFC45141A6F0883003883CE /* AppDelegate.m in Sources */,
 				FFFC45371A6F08BA003883CE /* TipViewController.m in Sources */,
+				FFFC453A1A6F14D6003883CE /* README.md in Sources */,
 				FFFC45111A6F0883003883CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
