@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF60EC6B1A7765DE00E06602 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF60EC691A7765DE00E06602 /* SettingsViewController.m */; };
+		FF60EC6C1A7765DE00E06602 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF60EC6A1A7765DE00E06602 /* SettingsViewController.xib */; };
+		FF60EC701A7787DA00E06602 /* SettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF60EC6E1A7787DA00E06602 /* SettingsCell.m */; };
+		FF60EC711A7787DA00E06602 /* SettingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF60EC6F1A7787DA00E06602 /* SettingsCell.xib */; };
 		FFFC45111A6F0883003883CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC45101A6F0883003883CE /* main.m */; };
 		FFFC45141A6F0883003883CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC45131A6F0883003883CE /* AppDelegate.m */; };
 		FFFC451C1A6F0883003883CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFC451B1A6F0883003883CE /* Images.xcassets */; };
@@ -14,7 +18,6 @@
 		FFFC452B1A6F0883003883CE /* TipCalculatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC452A1A6F0883003883CE /* TipCalculatorDemoTests.m */; };
 		FFFC45371A6F08BA003883CE /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC45351A6F08BA003883CE /* TipViewController.m */; };
 		FFFC45381A6F08BA003883CE /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFFC45361A6F08BA003883CE /* TipViewController.xib */; };
-		FFFC453A1A6F14D6003883CE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FFFC45391A6F14D6003883CE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF60EC681A7765DE00E06602 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		FF60EC691A7765DE00E06602 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		FF60EC6A1A7765DE00E06602 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		FF60EC6D1A7787DA00E06602 /* SettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCell.h; sourceTree = "<group>"; };
+		FF60EC6E1A7787DA00E06602 /* SettingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCell.m; sourceTree = "<group>"; };
+		FF60EC6F1A7787DA00E06602 /* SettingsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsCell.xib; sourceTree = "<group>"; };
 		FFFC450B1A6F0883003883CE /* TipCalculatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFC450F1A6F0883003883CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFFC45101A6F0883003883CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +101,12 @@
 				FFFC45341A6F08BA003883CE /* TipViewController.h */,
 				FFFC45351A6F08BA003883CE /* TipViewController.m */,
 				FFFC45361A6F08BA003883CE /* TipViewController.xib */,
+				FF60EC681A7765DE00E06602 /* SettingsViewController.h */,
+				FF60EC691A7765DE00E06602 /* SettingsViewController.m */,
+				FF60EC6A1A7765DE00E06602 /* SettingsViewController.xib */,
+				FF60EC6D1A7787DA00E06602 /* SettingsCell.h */,
+				FF60EC6E1A7787DA00E06602 /* SettingsCell.m */,
+				FF60EC6F1A7787DA00E06602 /* SettingsCell.xib */,
 			);
 			path = TipCalculatorDemo;
 			sourceTree = "<group>";
@@ -205,6 +220,8 @@
 				FFFC451F1A6F0883003883CE /* LaunchScreen.xib in Resources */,
 				FFFC45381A6F08BA003883CE /* TipViewController.xib in Resources */,
 				FFFC451C1A6F0883003883CE /* Images.xcassets in Resources */,
+				FF60EC6C1A7765DE00E06602 /* SettingsViewController.xib in Resources */,
+				FF60EC711A7787DA00E06602 /* SettingsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +241,8 @@
 			files = (
 				FFFC45141A6F0883003883CE /* AppDelegate.m in Sources */,
 				FFFC45371A6F08BA003883CE /* TipViewController.m in Sources */,
-				FFFC453A1A6F14D6003883CE /* README.md in Sources */,
+				FF60EC701A7787DA00E06602 /* SettingsCell.m in Sources */,
+				FF60EC6B1A7765DE00E06602 /* SettingsViewController.m in Sources */,
 				FFFC45111A6F0883003883CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TipCalculatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -349,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TipCalculatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +428,7 @@
 				FFFC45301A6F0883003883CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFFC45311A6F0883003883CE /* Build configuration list for PBXNativeTarget "TipCalculatorDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +437,7 @@
 				FFFC45331A6F0883003883CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

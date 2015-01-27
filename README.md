@@ -2,12 +2,13 @@ TipCalculator iOS Demo
 
 This is an iOS demo application for calculating the tip.
 
-Time Spent: 2 hours
+Time Spent: 3 hours
 
 
 Features:
 
 User can calculate Total and Tip amount for upto  10 or 20 or 30% of the bill amount.
+User can select a default tip percent in settings
 
 Notes:
 

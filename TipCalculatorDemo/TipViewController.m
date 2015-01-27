@@ -7,6 +7,7 @@
 //
 
 #import "TipViewController.h"
+#import "SettingsViewController.h"
 
 @interface TipViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *billTextField;
@@ -23,8 +24,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Settings" style:UIBarButtonItemStylePlain target:self action:@selector(onSettingsButton)];
     // Do any additional setup after loading the view from its nib.
     self.title = @"Tip Calculator";
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger selectedIndex = [defaults integerForKey:@"default_tip_percent"];
+    [self.tipContorl setSelectedSegmentIndex:selectedIndex];
     [self updateValues];
 }
 
@@ -59,4 +64,9 @@
     self.totalLabel.text = [NSString stringWithFormat:@"%0.2f", total];
     
 }
+
+- (void)onSettingsButton {
+    [self.navigationController pushViewController:[[SettingsViewController alloc] init] animated:YES];
+}
+
 @end
